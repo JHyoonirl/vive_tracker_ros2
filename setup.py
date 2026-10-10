@@ -14,5 +14,10 @@ setup(
     ],
     install_requires=["setuptools", "numpy"],
     zip_safe=True,
-    entry_points={"console_scripts": ["vive_tracker_node = vive_tracker_ros.node:main"]},
+    entry_points={
+        "console_scripts": [
+            "vive_tracker_node = vive_tracker_ros.node:main",
+            "vive-tracker-serial = vive_tracker.serial_reader:main",
+        ]
+    },
 )
