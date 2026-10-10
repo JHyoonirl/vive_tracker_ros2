@@ -1,0 +1,12 @@
+vive_tracker_node:
+  ros__parameters:
+    serial_numbers: ["LHR-XXXXXXXX"]
+    tracker_ids: ["tracker"]
+    namespaces: ["vive"]
+    publish_rate: 100.0
+    frame_id: "world"
+    translation: [0.0, 0.0, 0.0]
+    rpy_degrees: [0.0, 0.0, 0.0]
+    config_path: ""
+    lh_config: ""
+    survive_args: []

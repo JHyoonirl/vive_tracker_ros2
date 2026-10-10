@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vive-tracker"
+version = "0.1.0"
+description = "Reusable Vive Tracker driver built on libsurvive"
+requires-python = ">=3.10"
+dependencies = ["numpy"]
+
+[project.scripts]
+vive-tracker-serial = "vive_tracker.serial_reader:main"

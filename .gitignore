@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+install/
+log/
+.venv/
+third_party/libsurvive/bin/
+third_party/libsurvive/_skbuild/
+third_party/libsurvive/CMakeCache.txt
+third_party/libsurvive/CMakeFiles/
+config/*.yaml
+!config/tracker.example.yaml
